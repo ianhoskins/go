@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println(converter(module, author))
 
-	bestFinish := bestLeagueFinishes(13, 10, 13, 17, 14, 16)
+	bestFinish := bestLeagueFinishes(13, 10, 13, 17, 14, 16, 100, 1000, 99999, 1)
 	fmt.Println(bestFinish)
 }
 

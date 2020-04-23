@@ -6,6 +6,8 @@ import (
 	"reflect"
 )
 
+var name1 string = "Hoskins"
+
 func main() {
 
 	name := "Ian"
@@ -21,6 +23,7 @@ func main() {
 	fmt.Println("OS Environment", os.Environ)
 	fmt.Println("Memory Address of *module* is", &module)
 	fmt.Println("Value of pointer *ptr* is", *ptr)
+	fmt.Println("Value of pointer name1 is", name1)
 
 	changeCourse1(course)
 	fmt.Println("1-You are watching course", course)
